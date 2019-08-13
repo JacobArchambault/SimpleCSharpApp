@@ -8,7 +8,7 @@ namespace SimpleCSharpApp
 {
     class Program
     {
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
             // Display a simple message to the user.
             Console.WriteLine("***** My First C# App *****");
@@ -17,6 +17,9 @@ namespace SimpleCSharpApp
 
             // Wait for Enter key to be pressed before shutting down.
             Console.ReadLine();
+
+            // Return an arbitrary error code.
+            return -1;
         }
     }
 }
