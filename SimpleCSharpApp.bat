@@ -3,7 +3,7 @@
 rem A batch file for SimpleCSharpApp.exe
 rem which captures the app's return value.
 
-.\SimpleCSharpApp\bin\debug\SimpleCSharpApp
+.\SimpleCSharpApp\bin\Debug\SimpleCSharpApp
 @if "%ERRORLEVEL%" == "0" goto success
 
 :fail
