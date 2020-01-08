@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SimpleCSharpApp
 {
@@ -19,7 +15,7 @@ namespace SimpleCSharpApp
             Console.WriteLine("Number of processors: {0}", Environment.ProcessorCount);
             Console.WriteLine(".NET version: {0}", Environment.Version);
         }
-        static int Main(string[] args)
+        static int Main()
         {
             // Display a simple message to the user.
             Console.WriteLine("***** My First C# App *****");
